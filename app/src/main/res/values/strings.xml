@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Квест-Мастер</string>
+    <string name="add_room">Добавить комнату</string>
+    <string name="add_master">Добавить мастера</string>
+    <string name="booking">Бронирование</string>
+    <string name="reports">Отчеты</string>
+    <string name="exit">Выход</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="search">Поиск</string>
+    <string name="name">Название</string>
+    <string name="room_number">Номер комнаты</string>
+    <string name="max_players">Макс. игроков</string>
+    <string name="price">Цена</string>
+    <string name="active">Активна</string>
+    <string name="inactive">Неактивна</string>
+    <string name="full_name">ФИО</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Email</string>
+    <string name="experience">Стаж</string>
+    <string name="client_name">Имя клиента</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="status">Статус</string>
+</resources>

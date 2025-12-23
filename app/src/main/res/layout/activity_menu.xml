@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pin2"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#20000000"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Квест-Мастер"
+        android:textColor="#5e2f0d"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="40dp">
+        <Button
+            android:id="@+id/btnRooms"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#2E7D32"
+            android:text="Квест-комнаты"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btnMasters"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#2E7D32"
+            android:text="Квест-мастера"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btnBooking"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#2E7D32"
+            android:text="Бронирование"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btnReports"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#2E7D32"
+            android:text="Отчёты"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#E57373"
+            android:text="Выход"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
